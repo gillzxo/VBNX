@@ -59,19 +59,19 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "1ST CHOICE ";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            document.title = "1ST CHOICE";
+            $("#favicon").attr("href", "assets/images/favicon.png");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["STUDY VISA", "SPOUSE OPEN WORK PERMIT", " VISITOR VISA", " PERMANENT RESIDENCE VISA", "SUPER VISA"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
