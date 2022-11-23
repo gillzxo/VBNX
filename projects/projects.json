@@ -133,7 +133,7 @@
       "code": "#https://github.com/jigar-sable/instagram-mern"
     }
   },
- // {
+ /* {
     "name": "Flipkart MERN",
     "desc": "Congratulations to JASDEEP SINGH GONDAEA, who has got 55 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
     "image": "flipkartmern",
@@ -423,4 +423,5 @@
       "code": "#"
     }
   }
+  */
 ]
