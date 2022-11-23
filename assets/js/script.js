@@ -39,7 +39,7 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("eoNi9wXrVtDzel_B_");
+        emailjs.init("RY9_LKvtjAxdXppe-");
 
         emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
             .then(function (response) {
