@@ -1,9 +1,83 @@
 [
    {
-    "name": "Indian Temples",
-    "desc": "Congratulations to JASDEEP SINGH GONDAEA, who has got 55 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
-    "image": "templeweb",
-    "category": "basicweb",
+    "name": "JASHANDEEP SINGH",
+    "desc": "Congratulations to JASHANDEEP SINGH, who has got 58 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
+    "image": "jashan",
+    "category": "pte",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+   
+    {
+    "name": "RAMANPREET KAUR",
+    "desc": "Congratulations to RAMANPREET KAUR, who has got 56 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
+    "image": "ramanpreet",
+    "category": "pte",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+    {
+    "name": "SHERRY ARORA",
+    "desc": "Congratulations to SHERRY ARORA, who has got 69 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
+    "image": "sherry",
+    "category": "pte",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+   
+    {
+    "name": "SIMRAN SINGH",
+    "desc": "Congratulations to SIMRAN SINGH, who has got 57 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
+    "image": "SIMARN",
+    "category": "pte",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+   
+    {
+    "name": "SUKHPREET KAUR ",
+    "desc": "Congratulations to SUKHPREET KAUR, who has got 55 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
+    "image": "sukhpreet",
+    "category": "pte",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+   
+   {
+    "name": "HARSHDEEP SINGH",
+    "desc": "Congratulations to HARSHDEEP SINGH, who has got 66 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
+    "image": "harsh",
+    "category": "pte",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+     {
+    "name": "HARPREET KAUR",
+    "desc": "Congratulations to HARPREET KAUR, who has got 73 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
+    "image": "harpreet",
+    "category": "pte",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+   {
+    "name": "GURLAL SINGH",
+    "desc": "Congratulations to GURLAL SINGH, who has got 58 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
+    "image": "gurlal",
+    "category": "pte",
     "links": {
       "view": "#",
       "code": "#"
@@ -59,7 +133,7 @@
       "code": "#https://github.com/jigar-sable/instagram-mern"
     }
   },
-  {
+ // {
     "name": "Flipkart MERN",
     "desc": "Congratulations to JASDEEP SINGH GONDAEA, who has got 55 scores in P.T.E. from our institute 1st choice. #TheHubOfPTE #1stChoice OPP. BUS STAND,KOTKAPURA ROAD, BHAGAPURANA, Moga 📞 +91 97805- 90090, 97806 90090.",
     "image": "flipkartmern",
