@@ -23,28 +23,4 @@
         "name": "Europr",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
     }
-    {
-        "name": "CANADA",
-        "icon": "https://img.icons8.com/emoji/48/000000/canada-emoji.png"
-    },
-    {
-        "name": "Australia",
-        "icon": "https://img.icons8.com/emoji/48/null/australia-emoji.png"
-    },
-    {
-        "name": "U.K",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
-    },
-    {
-        "name": "U.S.A",
-        "icon": "https://img.icons8.com/color/48/000000/redux.png"
-    },
-    {
-        "name": "New Zealand",
-        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
-    },
-    {
-        "name": "Europr",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    }
 ]
