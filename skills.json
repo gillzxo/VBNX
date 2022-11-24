@@ -1,11 +1,13 @@
 [
     {
         "name": "CANADA",
-        "icon": "https://img.icons8.com/emoji/48/null/canada-emoji.png"
+        "icon": "https://img.icons8.com/emoji/48/null/canada-emoji.png",
+        "view": "https://www.instagram.com/1STCHOICE_IMMIGRATION"
     },
     {
         "name": "AUSTRALIA",
-        "icon": "https://img.icons8.com/emoji/48/null/australia-emoji.png"
+        "icon": "https://img.icons8.com/emoji/48/null/australia-emoji.png",
+        "view": "https://www.instagram.com/the.g1ll/"
     },
     {
         "name": "U.K",
