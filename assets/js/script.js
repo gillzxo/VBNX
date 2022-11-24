@@ -99,6 +99,7 @@ function showSkills(skills) {
                 <img src=${skill.icon} alt="skill" />
                 <a href="${skill.view}"</a>
                 <span>${skill.name}</span>
+                <a href="${skill.view}"</a>
               </div>
             </div>`
     });
