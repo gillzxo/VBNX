@@ -97,7 +97,7 @@ function showSkills(skills) {
         <div class="bar">
               <div class="info">
                 <img src=${skill.icon} alt="skill" />
-                <a href="https://github.com"
+                <a href="${skill.links.view}"
                 <span>${skill.name}</span>
               </div>
             </div>`
