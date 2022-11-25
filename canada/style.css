@@ -232,6 +232,16 @@ header .navbar ul li a:hover{
   font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
+.home .content h2 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #002057;
+}
+.home .content h2 span {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #ff7b00;
+}
 
 /* education media queries starts*/
 @media screen and (max-width: 600px) {
