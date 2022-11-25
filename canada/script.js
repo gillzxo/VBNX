@@ -29,8 +29,8 @@ async function fetchData(type = "logo") {
 }
 
 function showSkills(skills) {
-    let skillsContainer = document.getElementById("skillsContainer");
-    let skillHTML = "";
+    let logoContainer = document.getElementById("logoContainer");
+    let logoHTML = "";
     logo.forEach(skill => {
         logoHTML += `
         <div class="bar">
@@ -40,7 +40,7 @@ function showSkills(skills) {
               </div>
             </div>`
     });
-    skillsContainer.innerHTML = skillHTML;
+    logoContainer.innerHTML = logoHTML;
 }
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
