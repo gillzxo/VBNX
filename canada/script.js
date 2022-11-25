@@ -18,12 +18,12 @@ $(document).ready(function(){
 });
 
 
-async function fetchData(type = "deep") {
+async function fetchData(type = "logo") {
     let response
-    type === "deep" ?
-        response = await fetch("deep.json")
+    type === "logo" ?
+        response = await fetch("logo.json")
         :
-        response = await fetch("./deep.json")
+        response = await fetch("./canada/logo.json")
     const data = await response.json();
     return data;
 }
@@ -31,12 +31,12 @@ async function fetchData(type = "deep") {
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
     let skillHTML = "";
-    skills.forEach(skill => {
-        skillHTML += `
+    logo.forEach(skill => {
+        logoHTML += `
         <div class="bar">
               <div class="info">
-                <img src=${deep.icon} alt="skill" />
-                <span>${deep.name}</span>
+                <img src=${logo.icon} alt="skill" />
+                <span>${logo.name}</span>
               </div>
             </div>`
     });
