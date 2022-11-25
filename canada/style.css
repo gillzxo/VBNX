@@ -21,7 +21,7 @@ body{
 }
 
 *::selection{
-  background: #2b3dda;
+  background:#c7f0ec;
   color: #fff;
 }
 
@@ -145,7 +145,7 @@ header .navbar ul li a:hover{
 
 /* education section starts */
 .education {
-  background: #070708;
+  background: #c7f0ec;
   min-height: 80vh;
 }
 .education .qoute {
