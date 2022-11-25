@@ -18,12 +18,12 @@ $(document).ready(function(){
 });
 
 
-async function fetchData(type = "skills") {
+async function fetchData(type = "deep") {
     let response
-    type === "skills" ?
-        response = await fetch("icon.json")
+    type === "deep" ?
+        response = await fetch("deep.json")
         :
-        response = await fetch("./projects/projects.json")
+        response = await fetch("./deep.json")
     const data = await response.json();
     return data;
 }
@@ -35,8 +35,8 @@ function showSkills(skills) {
         skillHTML += `
         <div class="bar">
               <div class="info">
-                <img src=${icon.icon} alt="skill" />
-                <span>${icon.name}</span>
+                <img src=${deep.icon} alt="skill" />
+                <span>${deep.name}</span>
               </div>
             </div>`
     });
