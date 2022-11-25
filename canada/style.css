@@ -287,18 +287,19 @@ header .navbar ul li a:hover{
 }
 /* education media queries ends*/
 /* education section ends */
-/* logo section starts */
-.logo {
+
+/* skills section starts */
+.skills {
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
-.logo h2 {
+.skills h2 {
   color: #fff;
 }
-.logo .heading span {
+.skills .heading span {
   color: rgb(255, 230, 0);
 }
-.logo .container {
+.skills .container {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
   border-radius: 1rem;
@@ -307,13 +308,13 @@ header .navbar ul li a:hover{
   margin: auto;
   margin-top: 2rem;
 }
-.logo .container .row {
+.skills .container .row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
-.logo .container .bar {
+.skills .container .bar {
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 1rem;
@@ -321,45 +322,46 @@ header .navbar ul li a:hover{
   background: rgba(0, 0, 22, 0.9);
   transition: 0.2s;
 }
-.logo .container .bar:hover {
+.skills .container .bar:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.logo .container .bar .info {
+.skills .container .bar .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
 }
-.logo .container .bar .info i {
+.skills .container .bar .info i {
   font-size: 4rem;
 }
-.logo .container .bar .info span {
+.skills .container .bar .info span {
   font-size: 2rem;
   font-weight: 500;
   font-family: "Poppins";
   margin-left: 0.5rem;
 }
-/* logo media queries starts*/
+/* skills media queries starts*/
 @media screen and (max-width: 600px) {
-  .logo .container {
+  .skills .container {
     padding: 0;
     margin: 0;
   }
-  .logo .container .row {
+  .skills .container .row {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
   }
-  .logo .container {
+  .skills .container {
     margin-top: 5px;
     width: 100%;
   }
 }
-/* logo media queries ends*/
-/* logo section ends */
+/* skills media queries ends*/
+/* skills section ends */
+
 
 /* footer section starts */
 .footer{
