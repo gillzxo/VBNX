@@ -17,6 +17,32 @@ $(document).ready(function(){
     });
 });
 
+
+async function fetchData(type = "skills") {
+    let response
+    type === "skills" ?
+        response = await fetch("icon.json")
+        :
+        response = await fetch("./projects/projects.json")
+    const data = await response.json();
+    return data;
+}
+
+function showSkills(skills) {
+    let skillsContainer = document.getElementById("skillsContainer");
+    let skillHTML = "";
+    skills.forEach(skill => {
+        skillHTML += `
+        <div class="bar">
+              <div class="info">
+                <img src=${icon.icon} alt="skill" />
+                <span>${icon.name}</span>
+              </div>
+            </div>`
+    });
+    skillsContainer.innerHTML = skillHTML;
+}
+
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
     origin: 'top',
