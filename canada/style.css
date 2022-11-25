@@ -289,17 +289,17 @@ header .navbar ul li a:hover{
 /* education section ends */
 
 /* skills section starts */
-.skills {
+.logo {
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
-.skills h2 {
+.logo h2 {
   color: #fff;
 }
-.skills .heading span {
+.logo .heading span {
   color: rgb(255, 230, 0);
 }
-.skills .container {
+.logo .container {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
   border-radius: 1rem;
@@ -308,13 +308,13 @@ header .navbar ul li a:hover{
   margin: auto;
   margin-top: 2rem;
 }
-.skills .container .row {
+.logo .container .row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
-.skills .container .bar {
+.logo .container .bar {
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 1rem;
@@ -322,21 +322,21 @@ header .navbar ul li a:hover{
   background: rgba(0, 0, 22, 0.9);
   transition: 0.2s;
 }
-.skills .container .bar:hover {
+.logo .container .bar:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
   background-color: rgba(250, 255, 255) !important;
 }
-.skills .container .bar .info {
+.logo .container .bar .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
 }
-.skills .container .bar .info i {
+.logo .container .bar .info i {
   font-size: 4rem;
 }
-.skills .container .bar .info span {
+.logo .container .bar .info span {
   font-size: 2rem;
   font-weight: 500;
   font-family: "Poppins";
@@ -344,22 +344,22 @@ header .navbar ul li a:hover{
 }
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
-  .skills .container {
+  .logo .container {
     padding: 0;
     margin: 0;
   }
-  .skills .container .row {
+  .logo .container .row {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
   }
-  .skills .container {
+  .logo .container {
     margin-top: 5px;
     width: 100%;
   }
 }
-/* skills media queries ends*/
+/* logo media queries ends*/
 
 /* footer section starts */
 .footer{
