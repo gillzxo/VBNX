@@ -28,7 +28,7 @@ async function fetchData(type = "logo") {
     return data;
 }
 
-function showSkills(skills) {
+function showlogo(logo) {
     let logoContainer = document.getElementById("logoContainer");
     let logoHTML = "";
     logo.forEach(skill => {
