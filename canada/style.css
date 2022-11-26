@@ -314,7 +314,7 @@ header .navbar ul li a:hover{
 .footer{
   min-height: auto;
   padding-top: 0;
-  background: rgb(199, 240, 236);
+  background: rgb(242, 0, 0,0.9);
 }
 .footer .box-container{
   display: flex;
