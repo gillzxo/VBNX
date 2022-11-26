@@ -17,31 +17,37 @@ $(document).ready(function(){
     });
 });
 
+ 
+var swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
 
-async function fetchData(type = "logo") {
-    let response
-    type === "logo" ?
-        response = await fetch("logo.json")
-        :
-        response = await fetch("./canada/logo.json")
-    const data = await response.json();
-    return data;
-}
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        950: {
+            slidesPerView: 3,
+        },
+    },
+  });
 
-function showlogo(logo) {
-    let logoContainer = document.getElementById("logoContainer");
-    let logoHTML = "";
-    logo.forEach(skill => {
-        logoHTML += `
-        <div class="bar">
-              <div class="info">
-                <img src=${logo.icon} alt="skill" />
-                <span>${logo.name}</span>
-              </div>
-            </div>`
-    });
-    logoContainer.innerHTML = logoHTML;
-}
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
