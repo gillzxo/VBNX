@@ -21,7 +21,7 @@ body{
 }
 
 *::selection{
-  background:#c7f0ec;
+  background: #ffffff;
   color: #fff;
 }
 
@@ -145,7 +145,7 @@ header .navbar ul li a:hover{
 
 /* education section starts */
 .education {
-  background: #c7f0ec;
+  background: #f7f7f7;
   min-height: 80vh;
 }
 .education .qoute {
@@ -287,7 +287,10 @@ header .navbar ul li a:hover{
 }
 /* education media queries ends*/
 /* education section ends */
-
+.coupon {
+  background: #f7f7f7;
+  min-height: 80vh;
+}
 .coupon {
   border: 5px dotted #bbb; /* Dotted border */
   width: 80%;
