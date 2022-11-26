@@ -289,8 +289,8 @@ header .navbar ul li a:hover{
 /* education section ends */
 .coupon {
   background: #f7f7f7;
-  min-height: 80vh;
 }
+
 .coupon {
   border: 5px dotted #bbb; /* Dotted border */
   width: 80%;
