@@ -266,6 +266,10 @@ header .navbar ul li a:hover{
   }
 }
 /* about media queries ends*/
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 /* about section ends */
 /* footer section starts */
 .footer{
