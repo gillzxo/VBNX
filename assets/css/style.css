@@ -488,7 +488,7 @@ header .navbar ul li a:hover {
 .skills .container .bar {
   margin-bottom: 15px;
   padding: 10px;
-  border-radius: 5rem;
+  border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background: rgba(242, 242, 250);
   transition: 0.2s;
@@ -502,13 +502,13 @@ header .navbar ul li a:hover {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin-top: 1.0rem;
+  margin-top: 1rem;
 }
 .skills .container .bar .info i {
-  font-size: 5.5rem;
+  font-size: 4rem;
 }
 .skills .container .bar .info span {
-  font-size: 500rem;
+  font-size: 5rem;
   font-weight: 600;
   font-family: "Poppins";
   margin-left: 0.5rem;
