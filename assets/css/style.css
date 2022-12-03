@@ -1206,7 +1206,150 @@ form .button-area {
   }
 }
 /* common media queries ends*/
+.project {
+    position: relative;
+    background: none;
+}
 
+.project:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url(assets/jpl.jpg) 50%;
+    filter: brightness(15%);
+    background-size: cover;
+}
+
+.project-row {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+@media (max-width:767px) {
+    .project-row {
+        flex-direction: row;
+    }
+}
+
+@media (max-width:575px) {
+    .project-row {
+        flex-direction: column;
+    }
+}
+
+.project-col {
+    display: flex;
+    flex: 0 0 33.33332%;
+    justify-content: center;
+}
+
+@media (max-width:991px) {
+    .project-col {
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width:575px) {
+    .project-col {
+        flex: 0 0 100%;
+    }
+}
+
+.project-container {
+    padding-top: 3rem;
+    min-height: 100vh;
+}
+
+.project-card {
+    position: relative;
+    display: inline-block;
+    margin: 1rem 1rem 2rem;
+    width: 24rem;
+    height: 27rem;
+    background-color: #181a1b;
+    border-radius: 2rem;
+    border: .3rem solid #181a1b;
+}
+
+@media (max-width:575px) {
+    .project-card {
+        width: 32rem;
+    }
+}
+
+@media (max-width:479px) {
+    .project-card {
+        width: 100%;
+    }
+}
+
+.project-card-cover {
+    height: 18rem;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 2rem;
+}
+
+.project-card-website {
+    background-image: url(assets/projects/website.png);
+}
+
+.project-card-summarizer {
+    background-image: url(assets/projects/summarizer.png);
+}
+
+.project-card-2048 {
+    background-image: url(assets/projects/2048.png);
+}
+
+.project-card-connect4 {
+    background-image: url(assets/projects/connect4.png);
+}
+
+.project-card-sushi {
+    background-image: url(https://media.giphy.com/media/tKkJrjL0ghnX2lpIsM/giphy.gif);
+}
+
+.project-card-pokemongo {
+    background-image: url(assets/projects/pokemongo.png);
+}
+
+.project-card-content {
+    padding: 1rem;
+}
+
+.project-card-title {
+    font-size: 2rem;
+    color: white;
+}
+
+.project-card-btn {
+    position: absolute;
+    display: inline-block;
+    bottom: .5rem;
+    right: .5rem;
+    padding: .75rem 1.5rem;
+    font-size: 1.2rem;
+    color: white;
+    background: #20a0ff;
+    border-radius: 2rem;
+    transition: all .2s linear;
+    border: .1em solid transparent;
+}
+
+.project-card-btn:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    border: .1em solid white;
+}
+
+.project-card-blackbutton {
+    background: black;
+}
 /* scroll top starts */
 #scroll-top {
   position: fixed;
