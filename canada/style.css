@@ -154,189 +154,227 @@ header .navbar ul li a:hover{
   }
 }
 /* hamburger icon ends */
-
-/* PRODUCTS */
-.product {
-  position: relative;
-  overflow: hidden;
-  padding: 20px;
+.deep {
+  background: rgb(255, 255, 255);
 }
-
-.product-category {
-  padding: 0 10vw;
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 40px;
-  text-transform: capitalize;
-}
-
-.product-container {
-  padding: 0 10vw;
+.deep .row {
   display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 4rem;
 }
-
-.product-container::-webkit-scrollbar {
-  display: none;
+.deep .row .content {
+  flex: 1 1 45rem;
+  padding: 3rem;
 }
-
-.product-card {
-  flex: 0 0 auto;
-  width: 250px;
-  height: 450px;
-  margin-right: 40px;
+.deep .row .content h3 {
+  color: rgb(27, 27, 27);
+  font-size: 2.5rem;
 }
-
-.product-image {
-  position: relative;
-  width: 100%;
-  height: 350px;
-  overflow: hidden;
+.deep .row .content .tag {
+  font-size: 1.4rem;
+  color: #020133;
+  font-weight: 600;
+  margin-top: 1rem;
 }
-
-.product-thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.deep .row .content p {
+  font-size: 2.0rem;
+  margin-top: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+  text-transform: none;
 }
-
-.discount-tag {
-  position: absolute;
-  background: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  color: #ff7d7d;
-  right: 10px;
-  top: 10px;
-  text-transform: capitalize;
+.deep .row .content .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
 }
-
-.card-btn {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px;
-  width: 90%;
-  text-transform: capitalize;
-  border: none;
-  outline: none;
-  background: #fff;
-  border-radius: 5px;
-  transition: 0.5s;
-  cursor: pointer;
-  opacity: 0;
+.deep .row .content .box-container .box p {
+  text-transform: none;
 }
-
-.product-card:hover .card-btn {
-  opacity: 1;
+.deep .row .content .box-container .box p span {
+  color: #011aff;
 }
-
-.card-btn:hover {
-  background: #ff7d7d;
+.resumebtn {
+  margin-top: 6rem;
+}
+.resumebtn .btn {
+  padding: 1.7rem 3rem;
+  border-radius: 0.5em;
+  transition: 0.3s;
   color: #fff;
+  background: #2506ad;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  font-family: "Nunito", sans-serif;
 }
-
-.product-info {
-  width: 100%;
-  height: 100px;
-  padding-top: 10px;
+.resumebtn .btn span {
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
 }
-
-.product-brand {
-  text-transform: uppercase;
+.resumebtn .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+  transition: 0.3s;
 }
-
-.product-short-description {
-  width: 100%;
-  height: 20px;
-  line-height: 20px;
-  overflow: hidden;
-  opacity: 0.5;
-  text-transform: capitalize;
-  margin: 5px 0;
+.resumebtn .btn:hover {
+  background: #1a047e;
 }
-
-.price {
-  font-weight: 900;
-  font-size: 20px;
+.resumebtn .btn:hover i {
+  transform: translateX(5px);
 }
+ 
 
-.actual-price {
-  margin-left: 20px;
-  opacity: 0.5;
-  text-decoration: line-through;
+/* about section starts */
+.about {
+  background: rgb(255, 255, 255);
 }
-
-.pre-btn,
-.nxt-btn {
-  border: none;
-  width: 10vw;
-  height: 100%;
-  position: absolute;
-  top: 0;
+.about .row {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
-  cursor: pointer;
-  z-index: 8;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 4rem;
 }
-
-.pre-btn {
-  left: 0;
-  transform: rotate(180deg);
-}
-
-.nxt-btn {
-  right: 0;
-}
-
-.pre-btn img,
-.nxt-btn img {
-  opacity: 0.2;
-}
-
-.pre-btn:hover img,
-.nxt-btn:hover img {
-  opacity: 1;
-}
-
-.collection-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-}
-
-.collection {
-  position: relative;
-}
-
-.collection img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.collection p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.about .row .image {
   text-align: center;
+  flex: 1 1 35rem;
+}
+.about .uk .img .img-fluid {
+  margin: auto ;
+  width: 100%;
+  align: center;
+  height: auto;
+  flex-direction: row;
+  height: auto;
+  flex: auto;
+} 
+.about .row .image img {
+  margin: 4rem;
+  width: 30rem;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  mix-blend-mode: luminosity;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.about .row .image img:hover {
+  mix-blend-mode: normal;
+}
+.about .row .content {
+  flex: 1 1 45rem;
+  padding: 3rem;
+}
+.about .row .content h3 {
+  color: rgb(27, 27, 27);
+  font-size: 2.5rem;
+}
+.about .row .content .tag {
+  font-size: 1.4rem;
+  color: #020133;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.about .row .content p {
+  font-size: 2.0rem;
+  margin-top: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+  text-transform: none;
+}
+.about .row .content .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+}
+.about .row .content .box-container .box p {
+  text-transform: none;
+}
+.about .row .content .box-container .box p span {
+  color: #011aff;
+}
+.resumebtn {
+  margin-top: 6rem;
+}
+.resumebtn .btn {
+  padding: 1.7rem 3rem;
+  border-radius: 0.5em;
+  transition: 0.3s;
   color: #fff;
-  font-size: 50px;
-  text-transform: capitalize;
+  background: #2506ad;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  font-family: "Nunito", sans-serif;
+}
+.resumebtn .btn span {
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+.resumebtn .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.resumebtn .btn:hover {
+  background: #1a047e;
+}
+.resumebtn .btn:hover i {
+  transform: translateX(5px);
+}
+/* about media queries starts*/
+@media screen and (max-width: 600px) {
+  .about .row .image {
+    margin-top: 2rem;
+  }
+  .about .row .image img {
+    margin: 0 auto;
+    width: 80%;
+    mix-blend-mode: normal;
+  }
+  .about .row {
+    padding: 0.5rem;
+    margin-bottom: 7rem;
+  }
+  .about .row .content {
+    padding: 1rem;
+  }
+  .about .row .content .box-container {
+    gap: 0;
+  }
+}
+/* about media queries ends*/
+.about .row .content  {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+  text-transform: none;
+}
+.about .row .content .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+}
+.about .row .content .box-container .box v {
+  text-transform: none;
+}
+.about .row .content .box-container .box v span {
+  color: #011aff;
 }
 
-.collection:nth-child(3) {
-  grid-column: span 2;
-  margin-bottom: 10px;
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
-
-
+/* about section ends */
 /* footer section starts */
 .footer{
   min-height: auto;
