@@ -3,16 +3,32 @@
         "icon": "https://ielts.idp.com/assets/logo/IELTS.svg"
     },
     {
+        "name": " ",
+        "icon": "  "
+    },
+    {
         "name": "PTE",
         "icon": "https://github.com/gillzxo/Gill/raw/gillzxo-patch-1/Add%20a%20heading%20(3).png"
+    },
+    {
+        "name": " ",
+        "icon": "  "
     },
     {
         "name": "CELPIP",
         "icon": "https://github.com/gillzxo/Gill/raw/gillzxo-patch-1/Untitled%20design%20(15).png"
     },
     {
+        "name": " ",
+        "icon": "  "
+    },
+    {
         "name": "TOEFL",
         "icon": "https://github.com/gillzxo/Gill/raw/gillzxo-patch-1/Untitled%20design%20(14).png"
+    },
+    {
+        "name": " ",
+        "icon": "  "
     },
     {
         "name": "CD IELTS",
@@ -21,5 +37,9 @@
     {
         "name": "Duolingo",
         "icon": "https://d23cwzsbkjbm45.cloudfront.net/static/images/wp/f837f798285b30d97ebed55480e42477.svg"
-     }    
+     },
+    {
+        "name": " ",
+        "icon": "  "
+    }
 ]
