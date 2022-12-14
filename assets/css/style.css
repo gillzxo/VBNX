@@ -462,7 +462,7 @@ header .navbar ul li a:hover {
 
 /* skills section starts */
 .skills {
-  min-height: 30vh;
+  min-height: 20vh;
   background: linear-gradient(to bottom, );
 }
 .skills h2 {
@@ -534,6 +534,9 @@ header .navbar ul li a:hover {
 /* skills media queries ends*/
 /* skills section ends */
 /* skills section ends */
+.blogs {
+  min-height: 90vh;
+}
 .blogs .box-container {
   display: -ms-grid;
   display: grid;
