@@ -462,21 +462,21 @@ header .navbar ul li a:hover {
 
 /* skills section starts */
 .skills {
-  min-height: 20vh;
-  background: linear-gradient(to bottom, );
+  min-height: 90vh;
+  background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
-  color: #000000;
+  color: #fff;
 }
 .skills .heading span {
-  color: rgb(255, 0, 0);
+  color: rgb(255, 230, 0);
 }
 .skills .container {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
-  width: auto;
+  width: 90%;
   margin: auto;
   margin-top: 2rem;
 }
@@ -491,7 +491,7 @@ header .navbar ul li a:hover {
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(242, 242, 250);
+  background: rgba(0, 0, 22, 0.9);
   transition: 0.2s;
 }
 .skills .container .bar:hover {
@@ -502,15 +502,15 @@ header .navbar ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.21rem;
+  gap: 1rem;
   margin-top: 1rem;
 }
 .skills .container .bar .info i {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .skills .container .bar .info span {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 500;
   font-family: "Poppins";
   margin-left: 0.5rem;
 }
@@ -532,6 +532,7 @@ header .navbar ul li a:hover {
   }
 }
 /* skills media queries ends*/
+/* skills section ends */
 /* skills section ends */
 /* skills section ends */
 .blogs {
