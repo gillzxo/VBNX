@@ -41,7 +41,7 @@ $(document).ready(function () {
     $("#contact-form").submit(function (event) {
         emailjs.init("gRajchZq9Ykm1lHHI","service_svhf5xl");
 
-        emailjs.send(serviceID, templateID, templateParams, publicKey);
+        emailjs.send(serviceID, templateID, templateParams, publicKey)
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
