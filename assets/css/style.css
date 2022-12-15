@@ -1375,6 +1375,9 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+.portfolio {
+  min-height: 30vh;
+}
 .portfolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
