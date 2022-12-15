@@ -348,6 +348,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
+  min-height: 80vh;
   background: rgb(255, 255, 255);
 }
 .about .row {
