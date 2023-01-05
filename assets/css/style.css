@@ -1111,6 +1111,13 @@ header .navbar ul li a:hover {
   height: 40rem;
   position: relative;
 }
+.contact .content .map iframe {
+  border-top-left-radius: 70px 80px;
+  border-top-right-radius: 80px 80px;
+  border-bottom-left-radius: 50px 80px;
+  border-bottom-right-radius: 80px 80px;
+  position: relative;
+}
 .contact .content form {
   width: 45%;
   margin-right: 3.5rem;
@@ -1229,7 +1236,7 @@ form .button-area {
   .contact .container .content {
     padding: 18px 12px;
   }
-  .contact .content .image-box {
+  .contact .content .map {
     display: none;
   }
   .contact .content form {
