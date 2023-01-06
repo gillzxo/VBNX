@@ -39,9 +39,9 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("gRajchZq9Ykm1lHHI","service_svhf5xl");
+        emailjs.init("JyEqDnq3tK6tG--A4iulv");
 
-        emailjs.send(serviceID, templateID, templateParams, publicKey)
+        emailjs.sendForm('service_9vc4ydh', 'template_uuf6sun', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
