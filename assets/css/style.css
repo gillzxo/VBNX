@@ -1415,13 +1415,13 @@ form .button-area {
 
 .slides {
     display: flex;
-    animation: scrollLeftAnimation 4s linear infinite;
+    animation: scrollLeftAnimation 6s linear infinite;
     flex-wrap: nowrap; /* Ensure images stay in a single line */
 }
 
 .slides img {
     width: 340px;
-    height: 340px;
+    height: auto;
     object-fit: cover;
     cursor: pointer;
     border: 5px solid #fff; /* Add border over the image */
