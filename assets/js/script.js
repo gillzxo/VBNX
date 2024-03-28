@@ -244,3 +244,24 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
+
+// script.js
+function openPopup(imageSrc) {
+    document.getElementById("popup-image").src = imageSrc;
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll('.slides img');
+    images.forEach(img => {
+        img.addEventListener('click', function() {
+            openPopup(this.src);
+        });
+    });
+});
+
